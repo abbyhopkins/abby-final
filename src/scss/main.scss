@@ -59,11 +59,14 @@ p {
   text-align: center;
 }
 
+.albums {
+  display: block;
+  text-align: center;
+}
+
 .album-cover {
   margin-bottom: 10px;
   margin-top: 20px;
-  margin-left: 50px;
-  max-width: 250px;
 }
 
 .discography-title {
@@ -93,6 +96,12 @@ h3 {
 hr {
   border-top: 1px dotted black;
 }
+
+
+
+
+
+
 
 
 

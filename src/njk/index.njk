@@ -37,9 +37,9 @@
       </div>
 <hr>
   <h2 class="titles">Albums</h2>
-    <div class="row albums">
+    <div class="row">
       {% for discography in data.discography %}
-        <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="col-sm-6 col-md-6 col-lg-4 albums">
           <img class="album-cover img-fluid" src="img/discs/{{ discography.image }}">
             <div class="media-body">
               <h3 class="discography-title">{{ discography.title }}</h3> 
