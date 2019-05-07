@@ -6,11 +6,18 @@
 
 .navbar-brand {
   font-family: 'New Rocker,' cursive;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .nav-item {
   font-family: 'Crimson Text', serif;
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  font-size: 15px;
+  a {
+    width: 200px;
+    text-align: center;
+  }
 }
 
 .dropdown-item {

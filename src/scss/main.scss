@@ -82,9 +82,14 @@ p {
 
 .members-info {
   font-family: 'Crimson Text', serif;
-  list-style-type: square;
+  list-style-type: none;
   padding: 20px;
-  border: 1px dotted black;
+  border: 1px dashed black;
+  text-align: center;
+  span {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
 h3 {
@@ -94,8 +99,11 @@ h3 {
 }
 
 hr {
-  border-top: 1px dotted black;
+  border-top: 1px dashed black;
 }
+
+
+
 
 
 
